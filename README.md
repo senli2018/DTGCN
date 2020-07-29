@@ -7,3 +7,4 @@ The image samples can be downloaded in [Dataset](https://data.mendeley.com/datas
 
 The code in this page is for multi-stage malaria prasites recognition. Please revised the parameters in 'config.py' when conduct other datasets.
 
+A CNN feature collection and trained model are in '/Model_and_Log/'.
