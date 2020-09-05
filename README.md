@@ -15,13 +15,21 @@ We have released the code under a OSI compliant license (MIT) with a license fil
 The code and trained model can be downloaded from GitHub, and the detail information is described below.
 
 Running Environment
-Operating System: Windows 10
-GPU: Nvidia Geforce 2080Ti GPU
-Deep learning framework: PyTorch 1.0.0 in Python 3.6.0
+
+Operating System: Windows 10;
+
+GPU: Nvidia Geforce 2080Ti GPU;
+
+Deep learning framework: PyTorch 1.0.0 in Python 3.6.0;
+
 Requirements:
-Pytorch 1.0.0
-Torchvision 0.4.1
-			Scipy 1.1.0
-			Numpy 1.17.4
+
+	Pytorch 1.0.0;
+
+	Torchvision 0.4.1;
+
+	Scipy 1.1.0;
+
+	Numpy 1.17.4;
 
 Parameter in code has been described in the GitHub, and can be directly run. The detail parameters are introduced as follow:
