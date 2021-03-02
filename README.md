@@ -33,7 +33,7 @@ Requirements:
 
 Parameter in code has been described in the GitHub, and can be directly run. The detail parameters are introduced as follow:
 
-For the CNN feature learning, ResNet18 architecture is firstly optimized in 50 epochs, and then the parameters are fixed in the following training. In this section, the batch size is set as 15 for source and target data with learning rate of 2e-5 which multiply 0.1 in every 50 iterations, the margin parameter m=5 in Eq. (3) and the balance parameter, \lambda=0.45 for L_cnn and L_mmd to formulate the overall loss function L=L_cnn+\lambda* L_mmd of CNN.
+In this section, the batch size is set as 15 for source and target data with learning rate of 1e-5 which multiply 0.1 in every 50 iterations.
 
 For the training details in GCN, the two graph convolution layers are trained with the output CNN features of the pre-trained CNN. 
 
@@ -64,4 +64,4 @@ source_dataset_path = '3_babesia_classification '
 
 target_dataset_path = '3_babesia_classification '
 
-4.Taking multi-stage malaria parasites recognition task as an example, the CNN feature learning module is time-consuming in training, thus we provide a pre-trained CNN features and source centre files in folder of ‘Model_and_Log’, which supports directly training GCN module for the multi-stage malaria parasites recognition task. Just run ‘main.py’, and the programme will automatically load existing models and start train the GCN, with outputting loss and predicted results along with epochs. It will be soon convergence in 10 epochs, and reported results can be obtained.
+4.Taking multi-stage malaria parasites recognition task as an example, just run ‘main.py’, and the programme will automatically load existing models and start train the GCN, with outputting loss and predicted results along with epochs. It will be soon convergence in 10 epochs, and reported results can be obtained.
